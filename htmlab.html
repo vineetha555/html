@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="device-width, initial-scale=1.0">
+		<title>lab html</title>
+</head>
+
+
+
+
+<body>
+		<h1 style="text-align: center;color: red;"><u>form</h1></u>
+	<form>
+			<label for="fname" ><b>Name:</b></label>
+			<input type="text" id="fname" name="fname" placeholder="name" required><br><br>
+			<label for="email" ><b>Email:</b></label>
+			<input type="text" id="email" name="email" value=" test@example.com  " autofocus="" >
+			<br><br>
+			<label for="pwd"><b>password:</label></b>
+			<input type="password" id="pwd" name="password" required>
+
+
+
+			<label>Category:</label>
+			<select id="category" name="category">
+				<option value="student">student</option>
+				<option value="employee">employee</option>
+				<option value="freelancer" checked>freelancer</option>
+				</select><br><br>
+
+				<label for="event date">Event date:</label>
+				<input type="date" name="date"><br><br>
+
+
+			<input type="radio" name="radio" value="1 ticket">1 ticket
+			<input type="radio" name="radio" value="2 ticket"
+			checked="">2 ticket
+			<input type="radio" name="radio" value="3 ticket">3 ticket<br><br>
+
+			<label for="op">Online payment:</label>
+			<input type="checkbox" name="op" value="Online payment"><br><br>
+
+				<label for="notes">notes:</label>
+				<textarea rows="15" cols="80" description="notes" placeholder="enter notes here"> </textarea>
+				<input type="submit" name="submit"><br><br>
+
+			<input type="submit"  name="submit"><br><br>
+
+
+			<fieldset>
+				<legend>Group:</legend>
+				<label for="gname">Name:</label>
+				<input type="text" name="gname" required=""><br><br>
+				<label for="pwd">Password:</label>
+				<input type="password" name="pwd" required="">
+				
+			</fieldset><br><br>
+
+			<input type="reset" name="reset">
+	</form>
+
+</body>
+</html>
